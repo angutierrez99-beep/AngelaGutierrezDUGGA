@@ -53,7 +53,7 @@ def main():
     )
     args = parser.parse_args() #“Look at what the user typed when running the script and put those values into the variable args.”
 
-    csv_path = args.file #renaming the input argument value the user provided.
+    csv_path = args.file #renaming the input argument value the user provided or used csv_path = filename putting filename = "brca_head500_genes.csv"
     """
 I can skip #2 and #3 and go via
 df = pandas.read_csv('csv_path')
